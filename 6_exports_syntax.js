@@ -1,9 +1,9 @@
-// syntax de export :v 
+// syntax de export :v
 // cu phap thu muc module
 
-module.exports.items = ['item1','item2']
+module.exports.items = ["item1", "item2"];
 const person = {
-    name: 'bob', 
-}
+  name: "bob",
+};
 
-module.exports.APerson = person
+module.exports.singlePerson = person;

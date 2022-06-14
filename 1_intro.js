@@ -1,10 +1,11 @@
-const amount = 8
+// this example is to show how to run js file using node in terminal
 
-if(amount < 10){
-    console.log('small number');
-}
-else{
-    console.log('lagre number');
+const amount = 9;
+
+if (amount < 10) {
+  console.log("small number");
+} else {
+  console.log("large number");
 }
 
-console.log(`hey it's my first node app`);
+console.log(`Hey it's my first node app!!!`);

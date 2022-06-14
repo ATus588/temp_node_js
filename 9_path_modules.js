@@ -1,12 +1,18 @@
-const path = require('path')
+// module about
+const path = require("path");
 
+// return current platform specific seperator
 console.log(path.sep);
 
-const FilePath = path.join('/content/','subfolder','text.txt')
-console.log(FilePath);
+// use to join file path ???
+const filePath = path.join(`/content`, `subfolder`, `test.txt`);
+console.log(filePath);
 
-const base = path.basename(FilePath)
+// return base
+const base = path.basename(filePath);
 console.log(base);
 
-const absolute = path.resolve(__dirname,'content','subfolder','text.txt')
-console.log(absolute);
+// return absolute path
+// don't have to be available path ???
+const absPath = path.resolve(__dirname, `content`, `test.txt`, `subfolder`);
+console.log(absPath);

@@ -1,10 +1,10 @@
-// share
-const dtkl = 'linhcute'
-const mom = 'me Ut'
-const atus = 'tat'
 // local
-const secret = 'SUPER SECRET'
+const secret = `SUPER SECRET`;
+// share
+const tat = `Tran Anh Tu`;
+const dtkl = `Linh Dinh`;
 
-
-module.exports = { dtkl, mom, atus };
 //console.log(module);
+
+//export things
+module.exports = { tat, dtkl };
